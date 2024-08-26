@@ -43,10 +43,16 @@ Este projeto implementa várias funções utilitárias para realizar operações
 
 ### Executando as Funções
 
+# Este projeto utiliza Jest para testes unitários. Para executar os testes, use o comando:
+
+    ```bash
+    npx jest
+    ```
+
 Você pode utilizar as funções diretamente importando o módulo:
 
 ```javascript
-const { copiarValores, copiarValoresInverso, somarVetores, intercalarElementos } = require('./caminho-para-o-seu-arquivo');
+const { copiarValores, copiarValoresInverso, somarVetores, intercalarElementos } = require('./src/index.js');
 
 // Exemplo de uso:
 const A = [1, 2, 3];
