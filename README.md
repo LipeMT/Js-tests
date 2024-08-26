@@ -41,13 +41,13 @@ Este projeto implementa várias funções utilitárias para realizar operações
     npm install
     ```
 
-### Executando as Funções
-
-# Este projeto utiliza Jest para testes unitários. Para executar os testes, use o comando:
+1. Este projeto utiliza Jest para testes unitários. Para executar os testes, use o comando:
 
     ```bash
     npx jest
     ```
+
+### Executando as Funções
 
 Você pode utilizar as funções diretamente importando o módulo:
 
